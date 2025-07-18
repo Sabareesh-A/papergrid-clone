@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+#img-fluid{
+    height: 300px;
+    width: 100px;
+}
+.navbar.shrink .logo {
+    width: 60px;
+  }
