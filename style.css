@@ -3,7 +3,14 @@
     border: 0px;
     box-sizing: border-box;
 }
-#img-fluid{
-    height: 300px;
-    width: 100px;
-}
+
+.shipping-banner {
+    background-color: #000;
+    border-bottom: 1px solid #333;
+    height: 40px;
+    transition: background-color  .1s ease;
+  }
+
+  .shipping-banner:hover {
+    background-color: #222; /* Slightly lighter black */
+  }
