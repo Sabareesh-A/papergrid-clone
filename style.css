@@ -11,6 +11,12 @@
     transition: background-color  .1s ease;
   }
 
-  .shipping-banner:hover {
-    background-color: #222; /* Slightly lighter black */
-  }
+  .grey {
+  color: grey;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.grey:hover {
+  color: white;
+}
